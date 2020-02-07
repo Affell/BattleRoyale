@@ -1,0 +1,14 @@
+name: BatlleRoyale
+author: CouzCorporation
+version: 0.1
+main: fr.couzcorp.battleroyale.Main
+api-version: 1.13
+commands:
+  team:
+    usage: "§e[§9§lAide§e] §cUsage : /<command> <player | leave>"
+  start:
+    usage: "§e[§9§lAide§e] §cUsage : /<command> <solo | duo>"
+  stop:
+    usage: "§e[§9§lAide§e] §cUsage : /<command>"
+  world:
+    usage: "§e[§9§lAide§e] §cUsage : /<command> <world name>"

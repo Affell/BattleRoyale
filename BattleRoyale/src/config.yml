@@ -1,0 +1,104 @@
+messages:
+  player_kill: "§c§lLe joueur§a %player% §c§lest mort par§a %killer%"
+  ### %ont% -> conjugue le verbe avoir en fonction du nombre de joueurs
+  final_kill_title: "%players%"
+  final_kill_subtitle: "%verbe% fait Top 1 !"
+  final_kill_message: "§aL'équipe gagnante est celle de %players% avec %points% points !"
+  team_kill: "§c§lL'équipe de§a %players%§c§l est désormais éliminée !"
+  battle_start_toPlayer: "§aVous avez lancé le Battle Royale !"
+  battle_alreadyStarted_toPlayer: "§cLa partie est déjà lancée !"
+  battle_stop_toPlayer: "§aVous avez arreté le Battle Royale !"
+  battle_notStarted_toPlayer: "§cLa partie n'est pas lancée !"
+
+  ### %s% signifie que un 's' sera placé si timer > 1
+  broadcast_mode: "§aCette partie se déroulera en mode §l%mode% !"
+  broadcast_compteur: "§aDémarrage dans §l%timer%§a seconde%s% ..."
+  broadcast_start: "§aDémarrage du Battle Royale !"
+  broadcast_zone_incoming: "§aLa zone arrive dans §l%timer%§a seconde%s%"
+  broadcast_zone_ending: "§aLa zone s'arrête dans §l%timer%§a seconde%s%"
+
+  ## TEAM
+
+  team_invite_toTarget: "§a%player% vous a proposé de rejoindre sa team !"
+  team_invite_toSender: "§aVous avez proposé à %player% de rejoindre votre team !"
+  team_accept_toPlayerWhoAccept: "§aVous avez rejoint l'équipe de %player%"
+  team_accept_toPlayerWhoAsk: "§a%player% a rejoint votre équipe"
+  team_deny_toPlayerWhoAccept: "§aVous avez refusé la requête de %player%"
+  team_deny_toPlayerWhoAsk: "§a%player% a refusé votre requête"
+  team_full: "§cL'équipe est déjà au complet !"
+  team_leave: "§aVous avez quitté votre équipe !"
+  team_leave_toOtherPlayer: "§a%player% a quitté votre équipe !"
+
+points:
+  kill: 3
+  step_1: 0
+  step_2: 0
+  step_3: 1
+  step_4: 0
+  step_5: 1
+  step_6: 0
+  step_7: 2
+  step_8: 0
+  step_9: 0
+  step_10: 0
+  victory: 5
+
+loot:
+  kill:
+    material: "SAND"
+    amount: 8
+  chests:
+    nb: 16
+    world: "creative"
+    startInv:
+      l: "0, 100, 0"
+    1:
+      l: "1, 100, 0"
+      p: "15"
+    2:
+      l: "2, 100, 0"
+      p: "8"
+    3:
+      l: "3, 100, 0"
+      p: "6"
+    4:
+      l: "4, 100, 0"
+      p: "5"
+    5:
+      l: "5, 100, 0"
+      p: "6"
+    6:
+      l: "6, 100, 0"
+      p: "7"
+    7:
+      l: "7, 100, 0"
+      p: "3"
+    8:
+      l: "8, 100, 0"
+      p: "7"
+    9:
+      l: "9, 100, 0"
+      p: "7"
+    10:
+      l: "10, 100, 0"
+      p: "3"
+    11:
+      l: "11, 100, 0"
+      p: "6"
+    12:
+      l: "12, 100, 0"
+      p: "10"
+    13:
+      l: "13, 100, 0"
+      p: "6"
+    14:
+      l: "14, 100, 0"
+      p: "6"
+    15:
+      l: "15, 100, 0"
+      p: "3"
+    16:
+      l: "16, 100, 0"
+      p: "1"
+
+coef: 1
